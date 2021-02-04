@@ -4,7 +4,7 @@ def squares(length, width, count=0):
     length -= width
     if length == 0:
         print('квадрат номер: ', count + 1, ' с ребром ', width)
-        return 0
+        return 1
     count += 1
     print('квадрат номер: ', count, ' с ребром ', width)
     return squares(length, width, count)
